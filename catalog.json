@@ -2,84 +2,40 @@
   "format": "lingoread-catalog",
   "schemaVersion": 1,
   "ref": "v2026.10.19",
-  "updatedAt": "2026-10-19T10:28:35+08:00",
+  "updatedAt": "2026-10-19T10:55:30+08:00",
   "items": [
     {
-      "id": "words-animals-and-nature",
+      "id": "words-grade5-words",
       "kind": "words",
-      "title": "单词表",
-      "description": "",
-      "file": "words/animals-and-nature.csv",
+      "title": "五年级词汇（上+下册）",
+      "description": "118 个五年级核心词汇，含音标、释义与例句，库名列区分上下册",
+      "file": "words/grade5-words.csv",
+      "count": 118,
+      "bytes": 7962,
+      "sha256": "a4b838d2e765d7ed2164b38c412521f973ff9fc2ae3a3e91a6de46f6dc21947f",
+      "tags": ["五年级", "教材同步"]
+    },
+    {
+      "id": "reading-nursery-rhymes",
+      "kind": "reading",
+      "title": "经典英文儿歌 10 首",
+      "description": "Twinkle Twinkle、ABC Song、Old MacDonald 等 10 首，逐句中英对照",
+      "file": "reading/nursery-rhymes.csv",
       "count": 10,
-      "bytes": 725,
-      "sha256": "ada7fa0604f94111fe3092004bb978d2117c90ba98f4f2f72917abe7137cb4a7",
-      "tags": []
+      "bytes": 6872,
+      "sha256": "1c64a380026e0192765d77ec9c89f34233a956ab68f3ce7a57d05aa4968363cb",
+      "tags": ["儿歌", "启蒙"]
     },
     {
-      "id": "words-daily-verbs",
-      "kind": "words",
-      "title": "单词表",
-      "description": "",
-      "file": "words/daily-verbs.csv",
-      "count": 10,
-      "bytes": 671,
-      "sha256": "948b34faacd3d3b6845af9f1f731f2ce2a5edb67b1fad632315d7f535389d130",
-      "tags": []
-    },
-    {
-      "id": "reading-aesop-the-lion-and-the-mouse",
-      "kind": "reading",
-      "title": "朗读课文",
-      "description": "",
-      "file": "reading/aesop-the-lion-and-the-mouse.csv",
-      "count": 1,
-      "bytes": 1128,
-      "sha256": "834ae3753c1e9d132bec7800c020b4c48cd07fbb6767257caa5d1c70792592df",
-      "tags": []
-    },
-    {
-      "id": "reading-my-day",
-      "kind": "reading",
-      "title": "朗读课文",
-      "description": "",
-      "file": "reading/my-day.csv",
-      "count": 1,
-      "bytes": 941,
-      "sha256": "aa7745d2c06d40c7fe9ed6d5f2391b9cd649a5137f1ce45e3422e9517806f3d2",
-      "tags": []
-    },
-    {
-      "id": "reading-twinkle-twinkle-little-star",
-      "kind": "reading",
-      "title": "朗读课文",
-      "description": "",
-      "file": "reading/twinkle-twinkle-little-star.csv",
-      "count": 1,
-      "bytes": 893,
-      "sha256": "d7d3c6c79f79c08c713314fd58ab5dd996b7a14950485bb2dccd4342fcbebf3d",
-      "tags": []
-    },
-    {
-      "id": "motto-aesop-lessons",
+      "id": "motto-shakespeare-quotes",
       "kind": "motto",
-      "title": "金句集",
-      "description": "",
-      "file": "motto/aesop-lessons.csv",
-      "count": 5,
-      "bytes": 432,
-      "sha256": "bc2fb335a630661d6795512456327fa7c943e12cfe792fb640934db40110b089",
-      "tags": []
-    },
-    {
-      "id": "motto-common-proverbs",
-      "kind": "motto",
-      "title": "金句集",
-      "description": "",
-      "file": "motto/common-proverbs.csv",
-      "count": 8,
-      "bytes": 639,
-      "sha256": "3291687fd6dc83acc19aa0b1a15b7584af72107d7f67de4952bc542db80a8b28",
-      "tags": []
+      "title": "莎士比亚名句与经典台词",
+      "description": "170 条中英对照金句，带分类（人生哲理 / 爱情 / 励志 等）",
+      "file": "motto/shakespeare-quotes.csv",
+      "count": 170,
+      "bytes": 30001,
+      "sha256": "4af85c164b44c0880c6a2000eae61960bc73192a363750467a5b09329d8c9a20",
+      "tags": ["金句", "莎士比亚"]
     }
   ]
 }

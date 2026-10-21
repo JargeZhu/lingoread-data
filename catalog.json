@@ -1,8 +1,8 @@
 {
   "format": "lingoread-catalog",
   "schemaVersion": 1,
-  "ref": "v2026.10.21.1",
-  "updatedAt": "2026-10-21T19:56:18+08:00",
+  "ref": "v2026.10.21.2",
+  "updatedAt": "2026-10-21T22:26:09+08:00",
   "items": [
     {
       "id": "words-grade1-6-extension-words",
@@ -29,6 +29,35 @@
       "sha256": "dc24b34bf98a194b90cbbc5522bcde37d744ca159c0158a7479e78beea7a56ab",
       "tags": [
         "小学",
+        "分册",
+        "基础词汇"
+      ]
+    },
+    {
+      "id": "words-grade7-9-extension-words",
+      "kind": "words",
+      "title": "初中扩展词汇（569 词）",
+      "description": "569 个词，导入后是一个名为「初中扩展词汇」的库，含音标、释义与例句",
+      "file": "words/grade7-9-extension-words.csv",
+      "count": 569,
+      "bytes": 43393,
+      "sha256": "82d9738df8db96748ed6bf2ee42e6fa53119be16bb1939b47c63a8d9175ca67a",
+      "tags": [
+        "初中",
+        "扩展词汇"
+      ]
+    },
+    {
+      "id": "words-grade7-9-words",
+      "kind": "words",
+      "title": "初中 7-9 年级单词表（6 册）",
+      "description": "823 个词，按七年级上册到九年级下册分成 6 个库，含音标、释义与例句",
+      "file": "words/grade7-9-words.csv",
+      "count": 823,
+      "bytes": 56574,
+      "sha256": "7754328af6745197ff63a79f12288b0b68a0a96eb5c3bf459f7236e4e6aab9d7",
+      "tags": [
+        "初中",
         "分册",
         "基础词汇"
       ]

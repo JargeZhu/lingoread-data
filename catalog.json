@@ -1,9 +1,23 @@
 {
   "format": "lingoread-catalog",
   "schemaVersion": 1,
-  "ref": "v2026.10.21",
-  "updatedAt": "2026-10-21T19:47:05+08:00",
+  "ref": "v2026.10.21.1",
+  "updatedAt": "2026-10-21T19:56:18+08:00",
   "items": [
+    {
+      "id": "words-grade1-6-extension-words",
+      "kind": "words",
+      "title": "小学英语扩展词汇（568 词）",
+      "description": "568 个常用词，导入后是一个名为「小学英语扩展词汇」的库，含音标、释义与例句，涵盖学习用品、动物、食物、动词等 37 类主题",
+      "file": "words/grade1-6-extension-words.csv",
+      "count": 568,
+      "bytes": 44169,
+      "sha256": "12155780376548d71cd9087147ae90f94ec122ddcc8681191d4f09bcb6f6b521",
+      "tags": [
+        "小学",
+        "扩展词汇"
+      ]
+    },
     {
       "id": "words-grade1-6-words",
       "kind": "words",
@@ -17,21 +31,6 @@
         "小学",
         "分册",
         "基础词汇"
-      ]
-    },
-    {
-      "id": "words-topic-words",
-      "kind": "words",
-      "title": "小学英语分类词汇（37 类）",
-      "description": "568 个词，按学习用品、动物、食物、动词等 37 个主题分库，含音标、释义与例句",
-      "file": "words/topic-words.csv",
-      "count": 568,
-      "bytes": 34524,
-      "sha256": "51aabcbdd4fcfe1a2ee1c7aec6ffddfe7175f73b9a16fa9f76fd41c1e8a0d046",
-      "tags": [
-        "小学",
-        "主题分类",
-        "扩展词汇"
       ]
     },
     {

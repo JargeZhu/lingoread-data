@@ -11,7 +11,7 @@
 | 模块 | 文件 | 内容 | 条目 |
 |---|---|---|---|
 | 单词 | [`words/grade1-6-words.csv`](words/grade1-6-words.csv) | 小学 1-6 年级词汇，含音标、释义、例句（库名列区分一年级上册~六年级下册，共 12 个库） | 606 词 |
-| 单词 | [`words/topic-words.csv`](words/topic-words.csv) | 小学英语分类词汇，按学习用品、动物、食物、动词等主题分库（共 37 个库） | 568 词 |
+| 单词 | [`words/grade1-6-extension-words.csv`](words/grade1-6-extension-words.csv) | 小学英语扩展词汇，导入后是一个库（涵盖学习用品、动物、食物、动词等 37 类主题） | 568 词 |
 | 朗读 | [`reading/nursery-rhymes.csv`](reading/nursery-rhymes.csv) | 10 首经典英文儿歌，逐句中英对照 | 10 篇 |
 | 金句 | [`motto/shakespeare-quotes.csv`](motto/shakespeare-quotes.csv) | 莎士比亚名句与经典台词，含分类 | 170 条 |
 
@@ -28,10 +28,10 @@
 https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/grade1-6-words.csv
 ```
 
-### 单词：分类扩展词汇（568 词，37 个库）
+### 单词：小学英语扩展词汇（568 词，1 个库）
 
 ```
-https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/topic-words.csv
+https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/grade1-6-extension-words.csv
 ```
 
 ### 朗读（10 首儿歌）

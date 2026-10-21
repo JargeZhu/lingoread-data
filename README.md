@@ -15,6 +15,7 @@
 | 单词 | [`words/grade7-9-words.csv`](words/grade7-9-words.csv) | 初中 7-9 年级词汇，含音标、释义、例句（库名列区分七年级上册~九年级下册，共 6 个库） | 823 词 |
 | 单词 | [`words/grade7-9-extension-words.csv`](words/grade7-9-extension-words.csv) | 初中扩展词汇，导入后是一个库 | 569 词 |
 | 朗读 | [`reading/nursery-rhymes.csv`](reading/nursery-rhymes.csv) | 10 首经典英文儿歌，逐句中英对照 | 10 篇 |
+| 朗读 | [`reading/essay-with-words.csv`](reading/essay-with-words.csv) | 40 篇「短文记单词」，中英逐句对照（库名：读短文记单词） | 40 篇 |
 | 金句 | [`motto/shakespeare-quotes.csv`](motto/shakespeare-quotes.csv) | 莎士比亚名句与经典台词，含分类 | 170 条 |
 
 每个文件都是**纯 UTF-8 CSV**，列名可读，用 Excel 或记事本就能改。
@@ -52,6 +53,12 @@ https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/grade7-9-ex
 
 ```
 https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/reading/nursery-rhymes.csv
+```
+
+### 朗读（短文记单词 40 篇，1 个库）
+
+```
+https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/reading/essay-with-words.csv
 ```
 
 ### 金句（170 条）

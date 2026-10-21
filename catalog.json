@@ -1,8 +1,8 @@
 {
   "format": "lingoread-catalog",
   "schemaVersion": 1,
-  "ref": "v2026.10.21.2",
-  "updatedAt": "2026-10-21T22:26:09+08:00",
+  "ref": "v2026.10.21.3",
+  "updatedAt": "2026-10-21T23:16:14+08:00",
   "items": [
     {
       "id": "words-grade1-6-extension-words",
@@ -60,6 +60,21 @@
         "初中",
         "分册",
         "基础词汇"
+      ]
+    },
+    {
+      "id": "reading-essay-with-words",
+      "kind": "reading",
+      "title": "短文记单词 40 篇",
+      "description": "40 篇中英对照短文、共 483 句；在故事里记单词，适合精读与跟读",
+      "file": "reading/essay-with-words.csv",
+      "count": 40,
+      "bytes": 89949,
+      "sha256": "7e4eca80c6889a180eae8935bf1bb12e452b505c84103cd7384ac20701d1dfe2",
+      "tags": [
+        "短文",
+        "词汇",
+        "进阶"
       ]
     },
     {

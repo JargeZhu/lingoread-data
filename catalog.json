@@ -1,19 +1,38 @@
 {
   "format": "lingoread-catalog",
   "schemaVersion": 1,
-  "ref": "v2026.10.19",
-  "updatedAt": "2026-10-19T10:55:30+08:00",
+  "ref": "v2026.10.21",
+  "updatedAt": "2026-10-21T19:47:05+08:00",
   "items": [
     {
-      "id": "words-grade5-words",
+      "id": "words-grade1-6-words",
       "kind": "words",
-      "title": "五年级词汇（上+下册）",
-      "description": "118 个五年级核心词汇，含音标、释义与例句，库名列区分上下册",
-      "file": "words/grade5-words.csv",
-      "count": 118,
-      "bytes": 7962,
-      "sha256": "a4b838d2e765d7ed2164b38c412521f973ff9fc2ae3a3e91a6de46f6dc21947f",
-      "tags": ["五年级", "教材同步"]
+      "title": "小学 1-6 年级单词表（12 册）",
+      "description": "606 个词，按一年级上册到六年级下册分成 12 个库，含音标、释义与例句",
+      "file": "words/grade1-6-words.csv",
+      "count": 606,
+      "bytes": 38457,
+      "sha256": "dc24b34bf98a194b90cbbc5522bcde37d744ca159c0158a7479e78beea7a56ab",
+      "tags": [
+        "小学",
+        "分册",
+        "基础词汇"
+      ]
+    },
+    {
+      "id": "words-topic-words",
+      "kind": "words",
+      "title": "小学英语分类词汇（37 类）",
+      "description": "568 个词，按学习用品、动物、食物、动词等 37 个主题分库，含音标、释义与例句",
+      "file": "words/topic-words.csv",
+      "count": 568,
+      "bytes": 34524,
+      "sha256": "51aabcbdd4fcfe1a2ee1c7aec6ffddfe7175f73b9a16fa9f76fd41c1e8a0d046",
+      "tags": [
+        "小学",
+        "主题分类",
+        "扩展词汇"
+      ]
     },
     {
       "id": "reading-nursery-rhymes",
@@ -24,7 +43,10 @@
       "count": 10,
       "bytes": 6872,
       "sha256": "1c64a380026e0192765d77ec9c89f34233a956ab68f3ce7a57d05aa4968363cb",
-      "tags": ["儿歌", "启蒙"]
+      "tags": [
+        "儿歌",
+        "启蒙"
+      ]
     },
     {
       "id": "motto-shakespeare-quotes",
@@ -35,7 +57,10 @@
       "count": 170,
       "bytes": 30001,
       "sha256": "4af85c164b44c0880c6a2000eae61960bc73192a363750467a5b09329d8c9a20",
-      "tags": ["金句", "莎士比亚"]
+      "tags": [
+        "金句",
+        "莎士比亚"
+      ]
     }
   ]
 }

@@ -1,8 +1,8 @@
 # lingoread-data
 
-LingoRead（小学英语跟读背诵）的**公开数据仓库**。
+铃谷晨读（小学英语跟读背诵）的**公开数据仓库**。
 
-打开 LingoRead → 对应模块 → **导入** → **从网址** → 粘贴下面任一链接 → 获取。
+打开铃谷晨读 → 设置页 → **导入单词 / 导入文章 / 导入金句** → **从网址** → 粘贴下面任一链接 → 获取。
 
 ---
 
@@ -10,7 +10,8 @@ LingoRead（小学英语跟读背诵）的**公开数据仓库**。
 
 | 模块 | 文件 | 内容 | 条目 |
 |---|---|---|---|
-| 单词 | [`words/grade5-words.csv`](words/grade5-words.csv) | 五年级上/下册词汇，含音标、释义、例句（库名列区分上下册） | 118 词 |
+| 单词 | [`words/grade1-6-words.csv`](words/grade1-6-words.csv) | 小学 1-6 年级词汇，含音标、释义、例句（库名列区分一年级上册~六年级下册，共 12 个库） | 606 词 |
+| 单词 | [`words/topic-words.csv`](words/topic-words.csv) | 小学英语分类词汇，按学习用品、动物、食物、动词等主题分库（共 37 个库） | 568 词 |
 | 朗读 | [`reading/nursery-rhymes.csv`](reading/nursery-rhymes.csv) | 10 首经典英文儿歌，逐句中英对照 | 10 篇 |
 | 金句 | [`motto/shakespeare-quotes.csv`](motto/shakespeare-quotes.csv) | 莎士比亚名句与经典台词，含分类 | 170 条 |
 
@@ -21,10 +22,16 @@ LingoRead（小学英语跟读背诵）的**公开数据仓库**。
 
 ## 导入链接
 
-### 单词（118 词）
+### 单词：小学 1-6 年级（606 词，12 个库）
 
 ```
-https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/grade5-words.csv
+https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/grade1-6-words.csv
+```
+
+### 单词：分类扩展词汇（568 词，37 个库）
+
+```
+https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/words/topic-words.csv
 ```
 
 ### 朗读（10 首儿歌）
@@ -68,8 +75,8 @@ https://raw.githubusercontent.com/JargeZhu/lingoread-data/main/motto/shakespeare
 - 想确认下载到的是否完整，可对比 `sha256`：
 
   ```bash
-  sha256sum grade5-words.csv
-  # PowerShell: Get-FileHash grade5-words.csv -Algorithm SHA256
+  sha256sum grade1-6-words.csv
+  # PowerShell: Get-FileHash grade1-6-words.csv -Algorithm SHA256
   ```
 
 ---
